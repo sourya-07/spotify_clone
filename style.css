@@ -108,7 +108,7 @@ body{
 .privacy ul li a {
     text-decoration: none;
     color: #818080;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 600;
     margin: 0 6px;
 
@@ -116,7 +116,7 @@ body{
 
 .privacy ul {
     list-style: none;
-    margin-top: 20px;
+    margin-top: 70px;
 
 }
 .privacy ul li {
@@ -141,7 +141,7 @@ body{
     color: #ffffff;
     border: 1px solid #818080;
     border-radius: 20px;
-    margin: 20px o;
+    margin: 10px o;
 }
 
 .eng-btn button:hover {
@@ -153,6 +153,22 @@ body{
     margin-left: 300px;
     background: #181818;
     height: 100vh;
+    overflow-y: auto;
+    margin-bottom: 80px;
+}
+
+.main-section::-webkit-scrollbar {
+    background: transparent;
+}
+
+.main-section::-webkit-scrollbar-thumb {
+    background: transparent;
+    width: 10px;
+}
+
+.main-section:hover::-webkit-scrollbar-thumb {
+    background: #5c5b5b;
+    width: 5px;
 }
 
 .main-section .top-nav {
@@ -264,4 +280,97 @@ body{
     opacity: 1;
     transform:translateY(-20px);
 
+}
+
+.footer-section {
+    padding: 20px 40px;
+    background-color: #131212;
+}
+
+.footer-section .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.footer-section .footer .footer-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footer-section .footer .footer-links .footer-column {
+    margin: 0 12px;
+}
+
+.footer-section .footer .footer-links div {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.footer-section .footer .footer-links ul li {
+    list-style: none;
+    margin: 6px 0;
+}
+
+.footer-section .footer .footer-links ul li a{
+    text-decoration: none;
+    color: #969393;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer-section .footer .footer-links ul li a:hover{
+    text-decoration: underline;
+    color: #fff;
+
+}
+hr {
+    margin: 20px 40px;
+    background-color: #272626;
+    border: 0;
+    outline: 0;
+    border: 1px solid #575656;
+    margin-top: 40px;
+}
+
+.copyright {
+    padding: 0 40px;
+    color: #969393;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.preview {
+    display: flex;
+    justify-content: space-between;
+    background:linear-gradient(to right, #ae2896, #509bf5);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 40px;
+
+}
+
+.preview h4 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.preview p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.preview button {
+    padding: 8px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
 }
